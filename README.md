@@ -1,4 +1,4 @@
-# Tiancai Node Project
+# koa-mongoose-starter
 
 > 这是一个基于 Typescript 开发的 nodejs 项目，项目核心使用 Koa + mongoose 框架进行开发。
 
