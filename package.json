@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts",
+    "start": "tsc && node bin/www",
+    "preinstall": "node install.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "@koa/router": "^10.0.0",
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-passport": "^4.1.4",
+    "log4js": "^6.3.0",
+    "mongoose": "5.12.3",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/koa__router": "^8.0.4",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/koa": "^2.13.1",
+    "@types/koa-passport": "^4.0.2",
+    "@types/passport-jwt": "^3.0.5",
+    "nodemon": "^2.0.7",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.4"
+  }
+}
